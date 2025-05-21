@@ -1,0 +1,46 @@
+/* تعيين الخط العام للموقع */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    /* لون خلفية خفيف */
+    color: #333;
+    /* لون نص مناسب */
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق عناوين التدوينات */
+h1,
+h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* علشان padding و borders يتحسبوا من ضمن الحجم */
+* {
+    box-sizing: border-box;
+}
+
+/* تصميم قسم التدوينة */
+.post {
+    border: 1px solid #ccc;
+    /* إضافة إطار */
+    padding: 20px;
+    /* مسافة داخلية */
+    margin: 20px auto;
+    /* مسافة خارجية + توسيط */
+    width: 80%;
+    background-color: #fff;
+    /* خلفية بيضا */
+    border-radius: 8px;
+    /* زوايا ناعمة */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    /* ظل خفيف */
+}
+
+/* تنسيق الفقرات داخل التدوينة */
+.post p {
+    font-size: 16px;
+    line-height: 1.6;
+}
